@@ -1,0 +1,23 @@
+body{
+    background-color: #C0C0C0;
+}
+
+#listaBicicletas {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bicicleta {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-family: cursive;
+  }
+  
+  @media (min-width: 768px) {
+    .bicicleta {
+      width: calc(50% - 20px);
+    }
+  }
